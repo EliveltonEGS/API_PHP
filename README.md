@@ -1,6 +1,6 @@
 #### General Configurations of API in PHP
 
-#####  Create .env file in project root with the informations v
+#####  Create .env file in project root with the informations bellow
 
 ```
 driver    = 'mysql'
