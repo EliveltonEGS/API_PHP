@@ -36,3 +36,6 @@ composer install
 ```
 http://localhost:8080/category
 ```
+```
+http://localhost:8080/category/1
+```
