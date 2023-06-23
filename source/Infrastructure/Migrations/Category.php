@@ -13,7 +13,7 @@ class Category
     {
         if(!Capsule::schema()->hasTable('categories')) {
             Capsule::schema()->create('categories', function(Blueprint $table) {
-                $table->increments('id');
+                $table->id();
                 $table->string('description');
                 $table->timestamps();
             });
