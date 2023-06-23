@@ -12,9 +12,11 @@ use Source\Infrastructure\Migrations\Category;
 class Main
 {
     protected $category;
+    protected $product;
 
     public function __construct()
     {
         $this->category = (new Category())->up();
+        $this->product = (new Product())->up();
     }
 }
