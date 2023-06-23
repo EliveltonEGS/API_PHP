@@ -9,7 +9,8 @@ use Source\Application\Rest\Category\{
     CategoryUpdateAction
 };
 use Source\Application\Rest\Product\{
-    ProductGetAllAction
+    ProductGetAllAction,
+    ProductGetIdAction
 };
 
 $app = new App();
@@ -25,5 +26,6 @@ $app->put('/category/{id}', new CategoryUpdateAction($container));
 
 //routes products
 $app->get('/product', new ProductGetAllAction($container));
+$app->get('/product/{id}', new ProductGetIdAction($container));
 
 $app->run();
