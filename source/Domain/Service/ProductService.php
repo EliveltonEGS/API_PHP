@@ -26,4 +26,15 @@ class ProductService
     {
         return $this->productRepository->getAll();
     }
+
+    /**
+     * Find product by id
+     *
+     * @param integer $id
+     * @return array
+     */
+    public function getId(int $id): array
+    {
+        return $this->productRepository->getId($id);
+    }
 }

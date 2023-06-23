@@ -83,3 +83,11 @@ http://localhost:8080/product
 ```
 
 <img src="https://github.com/EliveltonEGS/API_PHP/assets/58617663/dc9ab542-cf56-4946-b4de-5daeab162f2e"/>
+
+###### GET: Get products by id
+
+```
+http://localhost:8080/product/1
+```
+
+<img src="https://github.com/EliveltonEGS/API_PHP/assets/58617663/fe7e3bc8-dfed-48c3-bec9-e32f2fed8c84"/>
