@@ -90,4 +90,4 @@ http://localhost:8080/product
 http://localhost:8080/product/1
 ```
 
-<img src="https://github.com/EliveltonEGS/API_PHP/assets/58617663/fe7e3bc8-dfed-48c3-bec9-e32f2fed8c84"/>
+<img src="https://github.com/EliveltonEGS/API_PHP/assets/58617663/3a2a204c-d7c8-4e6a-9758-a0130b355820"/>
