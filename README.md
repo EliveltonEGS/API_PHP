@@ -1,6 +1,6 @@
 #### General Configurations of API in PHP
 
-#####  Create .env file in project root with the informations bellow
+#####  Configuration .env file in project root with the informations bellow
 
 ```
 driver    = 'mysql'
@@ -31,11 +31,14 @@ docker-compose exec php-fpm bash
 composer install
 ```
 
-##### Access in navigator
+##### EndPoints of Category
 
+ ###### GET: Get all categories
 ```
 http://localhost:8080/category
 ```
+<img src="https://github.com/EliveltonEGS/API_PHP/assets/58617663/a992ae77-f62b-4617-9256-ec6cd5b4bd21">
+</br>
 ```
 http://localhost:8080/category/1
 ```
