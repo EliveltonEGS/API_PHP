@@ -40,7 +40,7 @@ class ProductGetIdAction
             ->withJson([
                 'data' => $this->productService->getId($args['id']),
                 'status_code' => 200,
-                'message' => 'Find category successfully'
+                'message' => 'Find product successfully'
             ]);
     }
 }
