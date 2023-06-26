@@ -1,5 +1,10 @@
 #### General Configurations of API in PHP
 
+##### Clone project accessed terminal with command bellow
+```
+git clone git@github.com:EliveltonEGS/API_PHP.git
+```
+
 #####  Configuration .env file in project root with the informations bellow
 
 ```
