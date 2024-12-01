@@ -1,5 +1,10 @@
 #### General Configurations of API in PHP
 
+#### No Terminal
+```
+php -S localhost:8080 -t public
+```
+
 ##### Clone project accessed terminal with command bellow
 ```
 git clone git@github.com:EliveltonEGS/API_PHP.git
